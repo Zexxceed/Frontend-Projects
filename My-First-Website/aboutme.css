@@ -1,0 +1,104 @@
+/* Fonts imported from Google Fonts */
+/* Fonts used: Poppins & Open Sans */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", "Open Sans", sans-serif; /* Open Sans as backup font*/
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: coral;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position:sticky;
+    top:0;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    display:flex;
+    position:sticky;
+    padding-top: 10px;
+    top: 122px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: coral;
+    color: black;
+    transform:translateY(-5px);
+    box-shadow: 0 8px 16px rgba(199, 163, 163, 0.1);
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: justify;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+#akotolegit {
+    float: inline-end 10;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#akotolegit2 {
+    float: inline-end 7;
+    line-height: 0.05;
+    font-size: 15px;
+    text-align: inherit;
+}
+
+.intro1 {
+    -webkit-columns: 500px 2;
+    -moz-columns: 500px 2;
+    columns: 500px 2;
+    column-gap: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    max-width: 1000px
+    margin-inline;
+}
+
+.intro2 {
+    -webkit-columns: 500px 2;
+    -moz-columns: 500px 2;
+    columns: 500px 2;
+    column-gap: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
